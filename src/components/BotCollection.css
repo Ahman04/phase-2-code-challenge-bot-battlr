@@ -1,0 +1,14 @@
+.bot-collection {
+  margin-top: 30px;
+}
+
+.bot-collection h2 {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+.bot-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

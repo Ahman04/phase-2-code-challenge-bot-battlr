@@ -1,0 +1,23 @@
+.your-bot-army {
+  margin-top: 40px;
+}
+
+.your-bot-army h2 {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+.army-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.empty-army {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
