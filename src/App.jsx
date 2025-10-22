@@ -9,7 +9,7 @@ function App() {
 
   // Fetch data from db.json
   useEffect(() => {
-    fetch('http://localhost:8001/bots')
+    fetch('https://json-server-vercel-steel-eight.vercel.app/bots')
       .then((res) => res.json())
       .then((data) => setBots(data))
       .catch((err) => console.error('Error fetching bots:', err));
