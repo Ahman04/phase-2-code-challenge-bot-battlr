@@ -15,10 +15,15 @@ Abdirahman Mohamed
 
 ## BDD (Behavior Driven Development)
 Input	Action	Output
+
 User opens app	Fetches data from JSON Server	Displays all available bots
+
 User clicks “Enlist”    on a bot	Adds bot to army (no duplicates)	Bot appears in “Your Army” section
+
 User clicks “Release”	Removes bot from army only	Bot remains in main collection
+
 User clicks “Delete”	Sends DELETE request to backend	Bot removed from both frontend and backend
+
 Invalid API respons 	Displays error or fallback message
 
 ## Technologies Used
